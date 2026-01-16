@@ -29,19 +29,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clicked(View view) {
-        btn.setText("click for image 1");
         int random = rand.nextInt(3) + 1;
         if(random==1) {
             iVMAIN.setImageResource(R.drawable.squirtle);
-            btn.setText("click for image 1");
+            btn.setText("1");
         }
             else if(random == 2) {
             iVMAIN.setImageResource(R.drawable.bulbasaur);
-            btn.setText("click for image 2");
+            btn.setText("2");
         }
         else if(random == 3) {
             iVMAIN.setImageResource(R.drawable.charmander);
-            btn.setText("click for image 3");
+            btn.setText("3");
         }
 
 
